@@ -1,0 +1,13 @@
+https://www.w3schools.com/react/react_forms.asp
+https://www.freecodecamp.org/news/how-to-build-forms-in-react/
+https://www.freecodecamp.org/news/how-to-consume-rest-apis-in-react/
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#checking_that_the_fetch_was_successful
+https://developer.mozilla.org/en-US/docs/Web/API/Response
+https://reactrouter.com/en/main/start/overview
+https://react-bootstrap.github.io/getting-started/introduction/
+https://www.mongodb.com/languages/mern-stack-tutorial
+https://react-bootstrap.github.io/components/modal/
+https://www.w3schools.com/html/html_form_input_types.asp
+https://stackoverflow.com/questions/64021110/react-modal-submit-form
+https://www.w3schools.com/cssref/css3_pr_flex.php
+https://www.freecodecamp.org/news/css-flexbox-complete-guide/
