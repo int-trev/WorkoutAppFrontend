@@ -11,3 +11,10 @@ https://www.w3schools.com/html/html_form_input_types.asp
 https://stackoverflow.com/questions/64021110/react-modal-submit-form
 https://www.w3schools.com/cssref/css3_pr_flex.php
 https://www.freecodecamp.org/news/css-flexbox-complete-guide/
+https://stackoverflow.com/questions/1133770/how-to-convert-a-string-to-an-integer-in-javascript
+https://recharts.org/en-US/api/LineChart
+https://recharts.org/en-US
+https://www.w3schools.com/colors/colors_picker.asp
+https://stackoverflow.com/questions/5095887/how-do-i-pass-a-url-with-multiple-parameters-into-a-url
+https://stackoverflow.com/questions/67752241/how-to-route-to-a-path-with-parameters-in-react-js
+

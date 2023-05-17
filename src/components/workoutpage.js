@@ -6,6 +6,8 @@ import { useParams } from "react-router-dom";
 
 import {Card, Button, Modal} from "react-bootstrap";
 
+import {LineChart, Line, XAxis, YAxis, CartesianGrid, Legend, Tooltip, BarChart, Bar} from 'recharts';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import '../styles/mainstyle.css';
@@ -209,8 +211,10 @@ function Workouts()
 
     return (
         <div>
+        <div className="flexcenter">
         <h1>Workouts Landing Page</h1>
         <Button onClick={handleNew}>Create Your Daily Workout</Button>
+        </div>
         <div className="flexrows">
         {
             workouts.map((workout) => {
@@ -237,6 +241,28 @@ function Workouts()
             })
         }
         </div>
+
+        <div className="flexcenter">
+            <h1>Workout Metrics</h1>
+            <LineChart width={800} height={400} data={workouts}>
+                <Line type="monotone" dataKey="pushup" stroke="#ff0000"></Line>
+                <Line type="monotone" dataKey="situp" stroke="#00ff00"></Line>
+                <Line type="monotone" dataKey="squat" stroke="#0000ff"></Line>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="date"></XAxis>
+                <YAxis></YAxis>
+                <Legend/>
+                <Tooltip/>
+            </LineChart>
+        </div>
+
+
+
+
+
+
+
+
         <Modal show={show && edit} onHide={() => setShow(false)}>
             <Modal.Header closeButton>
                 <Modal.Title>Workout for {insideModal.date}</Modal.Title>
