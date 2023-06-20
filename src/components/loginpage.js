@@ -45,12 +45,13 @@ function Login()
         {
             //redirect to the landing page with the cards containing all the users workouts
             setMessage("redirect to another page");
-            console.log("we are good")
+            console.log("we are good");
+            var newresponse = await response.json();
+            console.log(newresponse);
+            localStorage.setItem("token", newresponse.token);
+            console.log(localStorage.getItem("token"));
             window.location = "workouts/:" + inputs.username;
-
         }
-
-
     }
 
 

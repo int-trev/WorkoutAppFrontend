@@ -25,6 +25,7 @@ function Workouts()
 
     function getWorkouts ()
     {
+        console.log(localStorage.getItem("token"));
         fetch('http://localhost:5050/workout',{
             method: "POST",
             body: JSON.stringify(
@@ -33,7 +34,8 @@ function Workouts()
                 }
             ),
             headers: {
-                'Content-type': 'application/json; charset=UTF-8'
+                'Content-type': 'application/json; charset=UTF-8',
+                'authorization' : localStorage.getItem("token")
             }
         })
         .then((response) => {
@@ -105,7 +107,8 @@ function Workouts()
                 }
             ),
             headers: {
-                'Content-type': 'application/json; charset=UTF-8'
+                'Content-type': 'application/json; charset=UTF-8',
+                'authorization' : localStorage.getItem("token")
             }
         });
 
@@ -143,7 +146,8 @@ function Workouts()
                 }
             ),
             headers: {
-                'Content-type': 'application/json; charset=UTF-8'
+                'Content-type': 'application/json; charset=UTF-8',
+                'authorization' : localStorage.getItem("token")
             }
         });
 
@@ -250,7 +254,7 @@ function Workouts()
                 <Line type="monotone" dataKey="squat" stroke="#0000ff"></Line>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="date"></XAxis>
-                <YAxis></YAxis>
+                <YAxis type="number" domain={[0, 200]}></YAxis>
                 <Legend/>
                 <Tooltip/>
             </LineChart>

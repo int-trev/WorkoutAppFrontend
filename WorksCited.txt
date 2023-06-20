@@ -17,4 +17,6 @@ https://recharts.org/en-US
 https://www.w3schools.com/colors/colors_picker.asp
 https://stackoverflow.com/questions/5095887/how-do-i-pass-a-url-with-multiple-parameters-into-a-url
 https://stackoverflow.com/questions/67752241/how-to-route-to-a-path-with-parameters-in-react-js
+https://developer.mozilla.org/en-US/docs/web/css/flex-wrap
+https://graffino.com/til/D0xjf7VIGi-how-to-force-a-flexbox-item-to-a-new-row#:~:text=If%20you%20try%20flex-wrap%3A%20wrap%2C%20depending%20on%20the,pushing%20the%203rd%20item%20on%20the%20next%20row.
 
